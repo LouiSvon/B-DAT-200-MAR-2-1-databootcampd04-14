@@ -11,4 +11,4 @@ def my_mail(token: str) -> str:
 
     data = response.json()
 
-    return data.get("mail")
+    return data.get("mail") 
