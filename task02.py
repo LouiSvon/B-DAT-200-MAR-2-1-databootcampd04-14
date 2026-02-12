@@ -5,7 +5,6 @@ def groups_count(token: str) -> int: #prend un token et retourne un entier
 
     headers = {
         "Authorization": f"Bearer {token}",
-        "Accept": "application/json",
     }
 
     count = 0  #compteur total de groupes
